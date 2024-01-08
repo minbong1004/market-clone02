@@ -57,4 +57,11 @@ main {
   padding: 15px 30px;
   font-size: 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--button-primary);
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
 }
